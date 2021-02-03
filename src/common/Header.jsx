@@ -4,8 +4,7 @@ import { chakra } from "@chakra-ui/react"
 import {ReactComponent as User} from "../common/assets/user.svg"
 import {ReactComponent as Cart} from "../common/assets/cart.svg"
 import {ReactComponent as Help} from "../common/assets/information.svg"
-import { Flex, Box, Image, Input, Text, Button} from "@chakra-ui/react"
-import Logo from "../img/logo.png"
+import { Flex,  Image, Input} from "@chakra-ui/react"
 
 
 import Buttons from './Buttons'
