@@ -9,6 +9,7 @@ import './App.css';
 import Banner from "./common/Banner";
 import Header from "./common/Header";
 import TopHeader from "./common/TopHeader";
+import AddNewProduct from "./components/AddNewProduct";
 import Advert from "./components/Advert";
 import Card from "./components/Card";
 import FeaturedProducts from "./components/FeaturedProducts";
@@ -26,7 +27,7 @@ function App() {
    <ChakraProvider >
    <PageWarapper>
    <Switch>
-   <Route to="/">
+   <Route exact path="/">
     
     <TopHeader />
        <Header />
@@ -63,6 +64,9 @@ function App() {
         <Advert />
       </AdvertBoard>
       <Footer />
+      </Route>
+      <Route exact path="/add-product">
+        <AddNewProduct />
       </Route>
    </Switch>
    </PageWarapper>

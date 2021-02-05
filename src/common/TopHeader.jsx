@@ -11,7 +11,9 @@ export default function TopHeader() {
      <Flex >
      <Link className="link" to="/" alt="home">Home</Link>
      <Link  className="link"  to="/" alt="home">About</Link> 
-     <Link  className="link"  to="/" alt="home">Shop</Link>  </Flex>
+     <Link  className="link"  to="/" alt="home">Shop</Link> 
+      <Link  className="link"  to="/add-product" alt="home">Add Product</Link> 
+      </Flex>
     </Flex>
   )
 }
